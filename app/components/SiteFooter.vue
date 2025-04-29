@@ -32,7 +32,7 @@
       </n-p>
       <n-p depth="3">
         Copyright &copy; 2024 - {{ new Date().getFullYear() }}
-        <n-text depth="3" @click="jumpLink(linkData.home)"> TAB ECo </n-text>
+        <n-text depth="3" > TAB ECo </n-text>
         <n-text
           v-if="siteIcp"
           depth="3"
