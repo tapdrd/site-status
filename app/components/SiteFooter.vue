@@ -1,5 +1,5 @@
 <template>
-  <footer id="footer">
+  <footer id="footer"><!-- 
     <n-flex class="link" align="center">
       <n-button
         v-for="(item, key, index) in linkData"
@@ -13,7 +13,7 @@
           <Icon :name="`icon:${key}`" />
         </template>
       </n-button>
-    </n-flex>
+    </n-flex> -->
     <n-flex :size="4" class="text" align="center" vertical>
       <n-p depth="3">
         <n-text depth="3" @click="jumpLink(linkData.github)">
